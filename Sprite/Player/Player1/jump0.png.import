@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/shot0.png-e6d2ed769f91d1b04744cb54e25c9ccb.stex"
+path="res://.import/jump0.png-ff6ea32b210190b3f888ddcf68785f38.stex"
 
 [deps]
 
-source_file="res://Sprite/Player/shot0.png"
-source_md5="40889d6935d893f0918cda6ba1b42ed7"
+source_file="res://Sprite/Player/Player1/jump0.png"
+source_md5="5578e3d13ee688bc8dbe5a30c28fb581"
 
-dest_files=[ "res://.import/shot0.png-e6d2ed769f91d1b04744cb54e25c9ccb.stex" ]
-dest_md5="7e825d11144ec52d91666061077760a8"
+dest_files=[ "res://.import/jump0.png-ff6ea32b210190b3f888ddcf68785f38.stex" ]
+dest_md5="93786f3161f1a3468102fb8ad7f38d52"
 
 [params]
 

@@ -12,24 +12,24 @@ func _physics_process(delta):
 	
 	if Input.is_action_pressed("ui_right"):
 		motion.x= speed
-		$Player_Sprite1.flip_h= false
-		$Player_Sprite1.play("Run1")
+		$Player2_Sprite.flip_h= true
+		$Player2_Sprite.play("Player2_Run")
 	elif Input.is_action_pressed("ui_left"):
 		motion.x= -speed
-		$Player_Sprite1.flip_h= true
-		$Player_Sprite1.play("Run1")
+		$Player2_Sprite.flip_h= false
+		$Player2_Sprite.play("Player2_Run")
 	else:
 		motion.x= 0
-		$Player_Sprite1.play("Idle1")
+		$Player2_Sprite.play("Player2_Idle")
 		
-	if Input.is_action_pressed("ui_space"):
-		$Player_Sprite1.play("Shoot1")
+	if Input.is_action_pressed("ui_down"):
+		$Player2_Sprite.play("Player2_Shoot")
 		
 	if is_on_floor():
 		if Input.is_action_just_pressed("ui_up"):
 			motion.y= jump
 	else:
-			$Player_Sprite1.play("Jump1")
+			$Player2_Sprite.play("Player2_Jump")
 	
 	motion = move_and_slide(motion,up)
 	pass
